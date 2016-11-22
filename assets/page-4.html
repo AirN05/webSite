@@ -1,0 +1,18 @@
+<menu></menu>
+	
+<div class="content " ng-controller="contentController">
+	<ul class="content__ul"  ng-repeat="item in employ" >
+		<li>
+		<div>
+			<div class="content__photo" >
+				<img class="content__photo__img" src="{{item.image}}">
+			</div>
+			<div class="content__desc text">
+				{{item.name}}<br>
+				{{item.describe}}
+			</div>
+		</div>
+
+		</li>
+	</ul>
+</div>

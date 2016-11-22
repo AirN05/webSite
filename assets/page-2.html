@@ -1,0 +1,18 @@
+<menu></menu>
+
+<div class="content text" ng-controller="contentController">
+	
+	<ul class="content__ul" ng-repeat="item in price">
+		<li>
+			<div class="price_block">
+				<div class="price__desc">
+					<div>{{item.name}}</div>
+					<div>{{item.option}}</div>
+				</div>
+				<div class="price__num">{{item.price}}</div>
+				<hr class="line">
+			</div>
+		</li>
+	</ul>
+
+</div>

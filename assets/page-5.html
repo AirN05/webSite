@@ -1,0 +1,17 @@
+<menu></menu>
+	<div class="content text" ng-controller="contentController">
+		<div class="feedback">
+			<div>
+				<label>Enter your e-mail: </label> <input class="feedback__email" type="text" mg-model="email">
+			</div>
+			<div>
+				<textarea class="feedback__mess" placeholder="Ваше сообщение.."  mg-model="message"></textarea><br>
+			</div>
+			<button class="button_send" ng-click="sendMessage()">Отправить</button>
+		</div>
+		<div class="contacts">
+		<p>{{contacts.address}}<br>Тел:{{contacts.phone}}</p>
+			
+		</div>
+	</div>
+s

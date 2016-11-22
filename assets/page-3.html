@@ -1,0 +1,16 @@
+<menu></menu>
+	
+<div class="content" ng-controller="contentController">
+
+<ul class="content__shop">
+	<li  ng-repeat="prod in shop">
+	
+	
+		<div class="prod__Img"> <img class="prod__Img" src="{{prod.image}}"></div>
+		<div class="prod__Name">{{prod.name}}</div>
+		<div class="prod__Name">{{prod.description}}</div>
+		<!-- <div class="prod__Name">{{prod.price}}</div> -->
+	
+	</li>
+	</ul>
+</div>

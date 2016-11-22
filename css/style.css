@@ -1,0 +1,271 @@
+body{
+	//background: #1f1e1e;
+	background: #0a0a0a;
+	//background-image: url(../pic/back.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.header_{
+
+	
+	background: black;
+	top: 0%;
+	left: 0%;
+	position: fixed;
+	width: 100%;
+	height: 6.2em;
+	white-space: nowrap;
+	z-index:3;
+	
+}
+
+.header__logo 
+{
+	display: inline-block;
+	width: 17em;
+	//height: 7.9em;
+	top:0.1em;
+	left: 4em;
+	position: fixed;
+
+}
+
+.header__menu{
+
+	display: inline-block;
+	top: 0.1em;
+	//left: 20%;
+	left: 20em;
+	
+	position: fixed;
+	overflow: auto;
+	
+}
+
+ul.header__menu__items li
+{
+	
+	display: inline-block;
+    padding: 1em;
+	font-size: 1.2em;
+	//font-family: 'Lobster', cursive;
+	//font-family: "Century Gothic", sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+	height: 1.5em;
+	width: 6.5em;
+	text-align: center;
+	margin: 0 auto;
+	//border-right: 1px solid #444444;
+	
+}
+
+
+
+ul.header__menu__items li:hover 
+{
+	background: #313131;
+	transition: 1s;
+}
+
+a
+{   
+    text-decoration:none;
+	color: white;
+}
+
+.content{
+
+	///background: rgba(255, 255, 255, 0.6);
+	width: 94%;
+	top: 6.4em;
+	left:3em;
+	right:0em;
+	height: 80vh;
+	position: fixed;
+	padding: 1em;
+	margin: auto;
+	z-index:2;
+	overflow-y: auto;
+
+	
+	
+	
+}
+
+.text{
+
+	font-family: "Century Gothic", sans-serif;
+	text-align: center;
+	color:white;
+
+
+}
+
+.price__img{
+	display: block;
+    margin: 0 auto; 
+}
+
+.content__photo{
+
+	display: inline-block;
+	width: 10em;
+	height: 10em;
+}
+
+.content__photo__img{
+
+	display: inline-block;
+	width: 7.5em;
+	height: 7.5em;
+	border-radius: 50%;
+	float: left;
+
+	
+}
+
+.content__desc{
+	display: inline-block;
+	padding: 1.5em;
+	float: right;
+	position: absolute;
+	left:12em;
+	text-align: left;
+}
+
+.choice{
+	width: 30%;
+	height: 90%;
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    color:white;
+    text-shadow: 1px 1px 5px black;
+    padding: 2em;
+    //left:20em;
+    //position: fixed;
+    background-image: url(../pic/back.jpg);
+    background-size: cover;
+    z-index: 4;
+    text-align: center;
+
+}
+
+.choice:hover{
+	background: rgba(0, 0, 0, 0.1);
+	transition: 3s;
+
+}
+
+
+.prod__Img{
+	width: 14em;
+	//height: 14em;
+	display: inline-block;
+	margin: 0 auto;
+	
+}
+
+img.prod__Img{
+	border: 1px solid white;
+	padding: 0.3em;
+
+}
+
+.prod__Name{
+	//font-family: 'Lobster', cursive;
+	font-family: "Century Gothic", sans-serif;
+    font-size: 1em;
+    color:white;
+    text-align: center;
+    display: block;
+    width: 14.7em;
+    background-color: black;
+    margin: 0 auto;
+
+}
+
+.feedback{
+	left:0%;
+	position: absolute;
+	display: inline-block;
+}
+
+.feedback__email{
+	
+	margin: 1em;
+	width: 15em;
+
+
+}
+
+.feedback__mess{
+	margin: 1em;
+	//margin-left: 6.5em;
+	width: 27em;
+	height: 10em;
+	resize: none;
+}
+
+.button_send{
+	left: 0%;
+	position: absolute;
+	margin: 1em;
+}
+
+ul.content__shop li
+{
+	display: inline-block;
+	margin: 2em;
+}
+
+ul.content__shop
+{
+	white-space: normal;
+}
+
+ul.content__ul
+{
+	list-style-type: none;
+}
+
+.price__desc{
+	text-align: left;
+	width: 40%;
+	display: inline-block;
+}
+
+.price__num{
+
+	display: inline-block;
+	width: 40%;
+
+}
+
+.line{
+	background-color: #444444;
+	width:60%;
+	left:13.5%;
+	position: absolute;
+	height: 1px;
+	border: none;
+}
+
+.img__gallery{
+	width: 30em;
+}
+
+ul.image li{
+
+	display: inline-block;
+}
+
+ul.image{
+
+	white-space: normal;
+}
+
+
+
+
+
